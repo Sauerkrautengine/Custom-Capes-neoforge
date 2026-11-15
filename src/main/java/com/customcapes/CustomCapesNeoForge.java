@@ -36,7 +36,7 @@ public class CustomCapesNeoForge {
         if (menuKey == null) return;
         Minecraft mc = Minecraft.getInstance();
         while (menuKey.consumeClick()) {
-            mc.gui.setScreen(new CapeScreen(null));
+            CapesMod.openScreen(new CapeScreen(null));
         }
     }
 }
