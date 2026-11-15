@@ -157,7 +157,7 @@ public class CapeScreen extends Screen {
 
     @Override
     public void onClose() {
-        this.minecraft.gui.setScreen(parent);
+        CapesMod.openScreen(parent);
     }
 
     @Override
